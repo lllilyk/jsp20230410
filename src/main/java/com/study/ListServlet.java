@@ -21,7 +21,7 @@ public class ListServlet extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
-
+    
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
@@ -43,7 +43,6 @@ public class ListServlet extends HttpServlet {
 		// 4. forward / redirect
 		String view = "/WEB-INF/views/list.jsp";
 		request.getRequestDispatcher(view).forward(request, response);
-		
 		
 	}
 
